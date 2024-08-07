@@ -1,0 +1,37 @@
+{
+  "brand": "Apple",
+  "model": "iPhone 14 Pro",
+  "releaseYear": 2023,
+  "specifications": {
+    "dimensions": {
+      "height": "147.5 mm",
+      "width": "71.5 mm",
+      "depth": "7.85 mm",
+      "weight": "206 grams"
+    },
+    "display": {
+      "type": "Super Retina XDR",
+      "size": "6.1 inches",
+      "resolution": "2532 x 1170 pixels"
+    },
+    "processor": {
+      "name": "A17 Bionic",
+      "cores": 6
+    },
+    "battery": {
+      "capacity": "3200 mAh",
+      "type": "Li-Ion",
+      "charging": {
+        "wired": "20W fast charging",
+        "wireless": "15W MagSafe"
+      }
+    },
+    "os": "iOS 17"
+  },
+  "colors": [
+    "Space Black",
+    "Silver",
+    "Gold",
+    "Deep Purple"
+  ]
+}
