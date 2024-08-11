@@ -18,7 +18,7 @@ public class CheckingFilesInZipSeparatelyTest {
             ZipEntry entry;
             while ((entry = zipArch.getNextEntry()) != null) {
                 if (entry.getName().endsWith(".pdf")) {
-                    zipFiles.readPdfFromZip2(zipArch);
+                    zipFiles.readPdfFromZipTest(zipArch);
                     break;
                 }
             }
@@ -33,7 +33,7 @@ public class CheckingFilesInZipSeparatelyTest {
             ZipEntry entry;
             while ((entry = zipArch.getNextEntry()) != null) {
                 if (entry.getName().endsWith(".xls")) {
-                    zipFiles.readExcelFromZip2(zipArch);
+                    zipFiles.readExcelFromZipTest(zipArch);
                     break;
                 }
             }
@@ -48,7 +48,7 @@ public class CheckingFilesInZipSeparatelyTest {
             ZipEntry entry;
             while ((entry = zipArch.getNextEntry()) != null) {
                 if (entry.getName().endsWith(".csv")) {
-                    zipFiles.readCsvFromZip2(zipArch);
+                    zipFiles.readCsvFromZipTest(zipArch);
                     break;
                 }
             }
